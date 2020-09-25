@@ -1,7 +1,8 @@
 import React from 'react';
 import ChatIcon from '@material-ui/icons/Chat';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
-import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
+import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
+import MicIcon from '@material-ui/icons/Mic';
 import { Avatar, IconButton } from '@material-ui/core';
 
 function Chat() {
@@ -22,12 +23,35 @@ function Chat() {
           </IconButton>
         </div>
       </div>
-      <div className='chat__body'></div>
+      <div className='chat__body'>
+        <p className='chat__message'>
+          <span className='chat__name'>Sudip</span>
+          Chat message is appearing here
+          <span className='chat__timestamp'>{new Date().toUTCString()}</span>
+        </p>
+        <p className='chat__message'>
+          <span className='chat__name'>Sudip</span>
+          Chat message is appearing here
+          <span className='chat__timestamp'>{new Date().toUTCString()}</span>
+        </p>
+        <p className='chat__message chat__receiver'>
+          <span className='chat__name'>Sudip</span>
+          Chat message is appearing here
+          <span className='chat__timestamp'>{new Date().toUTCString()}</span>
+        </p>
+        <p className='chat__message'>
+          <span className='chat__name'>Sudip</span>
+          Chat message is appearing here
+          <span className='chat__timestamp'>{new Date().toUTCString()}</span>
+        </p>
+      </div>
       <div className='chat__footer'>
-        <div className='sidebar__searchContainer'>
-          <SearchOutlinedIcon />
-          <input type='text' placeholder='Search or start new chat' />
-        </div>
+        <InsertEmoticonIcon />
+        <form>
+          <input type='text' placeholder='Type a message' />
+          <button type='submit'> Send a message</button>
+        </form>
+        <MicIcon />
       </div>
     </div>
   );
