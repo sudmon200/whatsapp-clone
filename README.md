@@ -1,8 +1,9 @@
-# WhatsApp Clone with MERN Stack 
+# WhatsApp(web) Clone with MERN Stack 
 
 1. ~Build the user interface~
 2. Build the back-end
 3. Add functionality get/push to sync with the back-end
+4. Authentication
 
 
 ##### Screenshot
