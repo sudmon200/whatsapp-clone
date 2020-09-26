@@ -6,13 +6,16 @@ Functionality:
 - Send and Get chat messages in a room in realtime 
 
 Work in progress: 
-1. ~Build the user interface~
-2. Build the back-end 
-   i. Room chat
-   ii. ~Send and Get messaged in realtime~
-3. Add functionality get/push to sync with the back-end
-4. Authentication
-5. Room chat
+- ~Build the user interface~
+- Build the back-end
+
+    i. Room chat
+
+    ii. ~Send and Get messaged in realtime~
+
+- Add functionality get/push to sync with the back-end
+- Authentication
+- Room chat
 
 
 ##### Screenshot
