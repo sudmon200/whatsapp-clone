@@ -9,7 +9,7 @@ Work in progress:
 - ~Build the user interface~
 - Build the back-end
 
-    i. Room chat
+    i. Room id and room creation
 
     ii. ~Send and Get messaged in realtime~
 
