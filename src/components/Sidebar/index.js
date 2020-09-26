@@ -6,7 +6,7 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import { Avatar, IconButton } from '@material-ui/core';
 
-import './Sidebar.css';
+import './Sidebar.scss';
 
 function Sidebar() {
   return (
