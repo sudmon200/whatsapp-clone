@@ -1,10 +1,5 @@
 # WhatsApp(web) Clone with MERN Stack 
 
-Functionality: 
-- Authetication
-- Room Chat
-- Send and Get chat messages in a room in realtime 
-
 Work in progress: 
 - ~Build the user interface~
 - Build the back-end
