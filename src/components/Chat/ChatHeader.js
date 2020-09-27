@@ -8,7 +8,7 @@ function ChatHeader() {
     <div className='chat__header'>
       <Avatar src='https://i1.wp.com/www.techjunkie.com/wp-content/uploads/2018/09/do_snapchat_groups_affect_your_best_friends.jpg' />
       <div className='chat__headerInfo'>
-        <h2>Chat Header</h2>
+        <h2>Room Name</h2>
         <p>Last seen at</p>
       </div>
       <div className='chat__headerRight'>
