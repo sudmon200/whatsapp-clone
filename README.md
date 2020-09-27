@@ -6,7 +6,7 @@ Work in progress:
 
     i. Room id and room creation
 
-    ii. ~Send and Get messaged in realtime~
+    ii. ~API created, send and get messaged in realtime~
 
 - Add functionality get/push to sync with the back-end
 - Authentication
