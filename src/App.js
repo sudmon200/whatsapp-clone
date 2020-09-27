@@ -7,6 +7,13 @@ import './App.scss';
 
 function App() {
   const [messages, setMessages] = useState();
+
+  useEffect(() => {
+    axios.get('/api/v1/rooms/sync').then((response) => {
+      setRooms(response.data);
+    });
+  }, []);
+
   useEffect(() => {
     axios.get('/api/v1/messages/sync').then((response) => {
       setMessages(response.data);
@@ -30,12 +37,32 @@ function App() {
     };
   }, [messages]);
 
-  console.log(messages);
+  const [rooms, setRooms] = useState('');
+
+  useEffect(() => {
+    const pusher = new Pusher('3201d50d11aef91911c9', {
+      cluster: 'ap2',
+    });
+
+    const channel = pusher.subscribe('rooms');
+    channel.bind('inserted', function (newRoom) {
+      alert(JSON.stringify(newRoom));
+      setRooms([...rooms, newRoom]);
+    });
+    return () => {
+      channel.unbind_all();
+      channel.unsubscribe();
+    };
+  }, [rooms]);
+
+  // console.log('rooms =>', rooms);
+
+  // console.log('messages >', messages);
 
   return (
     <div className='app'>
       <div className='app__body'>
-        <Sidebar />
+        <Sidebar rooms={rooms} />
         <Chat messages={messages} />
       </div>
     </div>

@@ -9,9 +9,8 @@ function Chat({ messages }) {
     <div className='chat'>
       <ChatHeader />
       <div className='chat__body'>
-        {messages?.map((message, i) => (
-          <ChatItem message={message} key={i} />
-        ))}
+        {messages &&
+          messages.map((message, i) => <ChatItem message={message} key={i} />)}
       </div>
       <ChatFooter />
     </div>
