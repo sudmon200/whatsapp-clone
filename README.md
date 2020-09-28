@@ -4,9 +4,9 @@ Work in progress:
 - ~Build the user interface~
 - Build the back-end
 
-    i. Room id and room creation
+    i. ~Api to create Room and store in db, load from db~
 
-    ii. ~API created, send and get messaged in realtime~
+    ii. ~API created, send and get messages in realtime~
 
 - Add functionality get/push to sync with the back-end
 - Authentication
