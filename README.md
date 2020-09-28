@@ -18,6 +18,8 @@ Progress tracking:
 
 
 ##### Screenshot
+![ezgif-6-6fd92f87cc7b (1)](https://user-images.githubusercontent.com/71149670/94464381-0861eb80-01dc-11eb-8533-7c594235e9a6.gif)
+
 <img width="1440" alt="Screenshot 2020-09-26 at 9 52 54 AM" src="https://user-images.githubusercontent.com/71149670/94330078-5f9a6d00-ffde-11ea-8214-f73f1b442f16.png">
 
 ##### Architecture
