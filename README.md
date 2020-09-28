@@ -10,6 +10,7 @@
 - ~Add functionality get/push to sync with the back-end~
 - Authentication
 - Room chat
+- Deploy front-end and back-end
 
 
 ##### Screenshot
