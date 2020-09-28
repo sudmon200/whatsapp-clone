@@ -1,6 +1,5 @@
 # WhatsApp(web) Clone with MERN Stack 
-
-Work in progress: 
+ 
 - ~Build the user interface~
 - Build the back-end
 
@@ -8,7 +7,7 @@ Work in progress:
 
     ii. ~API created, send and get messages in realtime~
 
-- Add functionality get/push to sync with the back-end
+- ~Add functionality get/push to sync with the back-end~
 - Authentication
 - Room chat
 
