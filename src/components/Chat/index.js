@@ -3,8 +3,11 @@ import ChatHeader from './ChatHeader';
 import ChatFooter from './ChatFooter';
 import ChatItem from './ChatItem';
 import './Chat.scss';
+import { useParams } from 'react-router-dom';
 
 function Chat({ messages }) {
+  const { roomId } = useParams();
+  console.log('roomId =>', roomId);
   return (
     <div className='chat'>
       <ChatHeader />
