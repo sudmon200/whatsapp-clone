@@ -3,7 +3,7 @@
 A WhatsApp UI clone with feature of group chat / room chat. 
 
 
-
+Progress tracking: 
 - ~Build the user interface~
 - ~Build the back-end~
 
