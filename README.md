@@ -1,7 +1,11 @@
 # WhatsApp(web) Clone with MERN Stack 
- 
+  
+A WhatsApp UI clone with feature of group chat / room chat. 
+
+
+
 - ~Build the user interface~
-- Build the back-end
+- ~Build the back-end~
 
     i. ~Api to create Room and store in db, load from db~
 
