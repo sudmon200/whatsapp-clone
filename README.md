@@ -1,6 +1,6 @@
 # WhatsApp(web) Clone with MERN Stack 
   
-A WhatsApp UI clone with feature of group chat / room chat. 
+A WhatsApp UI clone with feature of room chat. 
 
 
 Progress tracking: 
