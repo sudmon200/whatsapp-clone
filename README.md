@@ -12,7 +12,7 @@ Progress tracking:
     ii. ~API created, send and get messages in realtime~
 
 - ~Add functionality get/push to sync with the back-end~
-- Authentication
+- ~Authentication~
 - Room chat
 - Deploy front-end and back-end
 
