@@ -13,8 +13,14 @@ Progress tracking:
 
 - ~Add functionality get/push to sync with the back-end~
 - ~Authentication~
-- Room chat
+- ~input, store, and retrive to the UI is working~
+- Room chat 
+- Load past messages for a room that is clicked
 - Deploy front-end and back-end
+
+Known Issues: 
+1. Routing rooms on click
+2. Load messages
 
 
 ##### Screenshot
