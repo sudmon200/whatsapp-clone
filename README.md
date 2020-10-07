@@ -1,13 +1,34 @@
 # WhatsApp(web) Clone with MERN Stack 
+  
+A WhatsApp UI clone with feature of room chat. 
 
-1. ~Build the user interface~
-2. Build the back-end
-3. Add functionality get/push to sync with the back-end
-4. Authentication
+
+Progress tracking: 
+- ~Build the user interface~
+- ~Build the back-end~
+
+    i. ~Api to create Room and store in db, load from db~
+
+    ii. ~API created, send and get messages in realtime~
+
+- ~Add functionality get/push to sync with the back-end~
+- ~Authentication~
+- ~input, store, and retrive to the UI is working~
+- Room chat 
+- Load past messages for a room that is clicked
+- Deploy front-end and back-end
+
+Known Issues: 
+1. Routing rooms on click
+2. Load messages
 
 
 ##### Screenshot
-<img width="1440" alt="Screenshot 2020-09-26 at 9 52 54 AM" src="https://user-images.githubusercontent.com/71149670/94330078-5f9a6d00-ffde-11ea-8214-f73f1b442f16.png">
+
+![ezgif-6-725d3ec19c83](https://user-images.githubusercontent.com/71149670/94464602-49f29680-01dc-11eb-9ed3-3e0f81fd6c0c.gif)
+
 
 ##### Architecture
 ![Screenshot 2020-09-26 at 9 38 04 AM (2)](https://user-images.githubusercontent.com/71149670/94329852-3bd62780-ffdc-11ea-9964-0212f9a93a8d.png)
+
+#### Backend: https://github.com/sudmon200/whatsapp-clone-backend
