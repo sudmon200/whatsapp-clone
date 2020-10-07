@@ -11,7 +11,7 @@ function ChatFooter() {
 
     await axios.post('/api/v1/messages/new', {
       message: input,
-      name: 'John Doe',
+      name: 'Sudip',
       timestamp: 'Now',
       received: false,
     });
@@ -29,6 +29,7 @@ function ChatFooter() {
           type='text'
           placeholder='Type a message'
         />
+
         <button onClick={sendMessage} type='submit'>
           Send a message
         </button>
